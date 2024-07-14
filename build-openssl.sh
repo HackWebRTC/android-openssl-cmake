@@ -4,7 +4,7 @@ set -e
 
 export BUILD_ARCHS=${BUILD_ARCHS:-arm_32 arm_64}
 export OPENSSL_BRANCH=OpenSSL_1_1_1-stable
-export OPENSSL_ANDROID_API_32=19
+export OPENSSL_ANDROID_API_32=16
 export OPENSSL_ANDROID_API_64=21
 
 NDK=${1:-$NDK}
