@@ -24,7 +24,7 @@ mkdir -p $PREFIX
 
 cd $BASE
 if [ ! -d openssl ]; then
-    git clone --depth 1 git://git.openssl.org/openssl.git --branch $OPENSSL_BRANCH
+    git clone --depth 1 https://github.com/openssl/openssl.git --branch $OPENSSL_BRANCH
 fi
 cd openssl
 echo "Building OpenSSL in $(realpath $PWD), deploying to $PREFIX"
